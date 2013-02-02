@@ -49,12 +49,6 @@ uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_la
     }
   }
 
-  for (; string0_it != string0_last; ++string0_it) {
-    ++distance;
-  }
-  for (; string1_it != string1_last; ++string1_it) {
-    ++distance;
-  }
   return distance;
 }
 
@@ -70,12 +64,6 @@ uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_la
     }
   }
 
-  for (; string0_it != string0_last; ++string0_it) {
-    ++distance;
-  }
-  for (; string1_it != string1_last; ++string1_it) {
-    ++distance;
-  }
   return distance;
 }
 }
