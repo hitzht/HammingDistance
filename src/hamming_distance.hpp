@@ -39,7 +39,7 @@
 #include <stdint.h>
 #include <algorithm>
 
-namespace hamming_distance {
+namespace hd {
 
 template<typename StringIterator>
 uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_last,

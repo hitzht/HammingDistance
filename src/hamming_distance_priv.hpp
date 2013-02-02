@@ -35,7 +35,7 @@
 #ifndef HAMMING_DISTANCE_PRIV_HPP_
 #define HAMMING_DISTANCE_PRIV_HPP_
 
-namespace hamming_distance {
+namespace hd {
 
 template<typename StringIterator>
 uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_last,
