@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
   if (argc == 3) {
     string str0(argv[1]);
     string str1(argv[2]);
-    cout << HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end()) << endl;
+    cout << hamming_distance::HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end()) << endl;
   } else {
     cerr << "error: HammingDistance str0 str1" << endl;
   }

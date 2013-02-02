@@ -43,7 +43,7 @@ TEST(HammingDistanceTest, HammingDistance) {
   string str0 = "abracadabra";
   string str1 = "abrabadadra";
 
-  EXPECT_EQ(2, HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end()));
+  EXPECT_EQ(2, hamming_distance::HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end()));
 }
 
 
@@ -62,7 +62,7 @@ TEST(HammingDistanceTest, HammingDistanceWithMatch) {
   string str0 = "abracadabra";
   string str1 = "abrabadadra";
 
-  EXPECT_EQ(1, HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end(), MatchBetweenBAndC()));
+  EXPECT_EQ(1, hamming_distance::HammingDistance(str0.begin(), str0.end(), str1.begin(), str1.end(), MatchBetweenBAndC()));
 }
 
 

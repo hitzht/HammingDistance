@@ -39,6 +39,8 @@
 #include <stdint.h>
 #include <algorithm>
 
+namespace hamming_distance {
+
 template<typename StringIterator>
 uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_last,
     StringIterator string1_first, StringIterator string1_last);
@@ -47,6 +49,9 @@ template<typename StringIterator, typename Match>
 uint64_t HammingDistance(StringIterator string0_first, StringIterator string0_last,
     StringIterator string1_first, StringIterator string1_last, Match match);
 
+}
+
 #include "hamming_distance_priv.hpp"
+
 
 #endif /* HAMMING_DISTANCE_HPP_ */
