@@ -1,0 +1,9 @@
+def build(bld):
+  bld.program(
+    source       = 'main.cpp',
+    name         = 'HammingDistance',
+    target       = 'HammingDistance',
+    includes     = '.')
+  
+  bld.install_files('${PREFIX}/include/hamming_distance', bld.path.ant_glob('*.hpp'))
+  bld.install_files('${PREFIX}/usr/bin/', bld.path.ant_glob('HammingDistance'))
