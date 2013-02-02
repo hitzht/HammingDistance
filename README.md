@@ -1,7 +1,7 @@
 HammingDistance
 ===============
 
-the program is to calculate hamming distance
+The program is to calculate hamming distance
 
 QuickStart
 ----------
